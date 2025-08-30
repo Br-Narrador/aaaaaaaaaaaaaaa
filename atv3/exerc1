@@ -1,0 +1,6 @@
+Um tipo de dado define a natureza que uma variavel pode assumir, assim o computador consegue otimizar o programa,
+identificando o tipo de dado armazenado e especificando o "caminho" que o computador deverá correr.
+Aumentando a velocidade e a segurança do codigo, já que não queremos que uma String (tipo de dado de texto)
+concatene com uma Int (tipo de dado de numero inteiro), esperamos uma saida de erro.
+A velocidade, já que quando não queremos o conjunto dos numeros reais, podemos usar apenas uma Int,
+que é significantemente menor que um Float (numeros reais).
