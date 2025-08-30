@@ -1,0 +1,9 @@
+Uma tipagem estatica é mais rigida, os tipos de dados guardados nas variaveis são fixos.
+
+Uma tipagem dinamica, como o nome sugere, é  menos rigida e os tipos de dados guardados nas variaveis não são fixos.
+
+Na tipagem estática, o computador já sabe o tipo do dado na declaração da variavel,
+o que torna o codigo mais eficiente, já que o computador não precisa fazer a verificação dos tipos a todo momento.
+
+Na tipagem dinamica, o computador não sabe o tipo do dado na declaração da variavel,
+o que torna o codigo menos eficiente, já que o computador precisa fazer a verificação de tipos a todo momento.
