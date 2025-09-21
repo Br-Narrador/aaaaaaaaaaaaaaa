@@ -24,6 +24,12 @@ void preenche(struct personagem* persona){
 int main(){
   struct personagem player;
   preenche(&player);
+  struct personagem player2;
+  preenche(&player2);
+  struct personagem player3;
+  preenche(&player3);
   formatar(player);
+  formatar(player2);
+  formatar(player3);
   return 0;
 }
