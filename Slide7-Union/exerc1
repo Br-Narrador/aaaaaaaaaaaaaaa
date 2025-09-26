@@ -1,0 +1,5 @@
+Struct guarda todos os valores ao mesmo tempo, servindo como o construtor E, enquanto que o Union equivale ao construtor OU,
+guardando apenas um valor por vez.
+Os Structs são melhores no quesito de versatilidade, já que não é necessária um controle rigoroso sobre o gerenciamento
+de seus valores. O Union, em contraste é muito mais útil em sistemas com memória limitada, já que o unico espaço que ele 
+ocupa é o igual ao tipo de mais espaço.
