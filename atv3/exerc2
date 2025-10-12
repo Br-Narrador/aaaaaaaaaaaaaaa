@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main (void) {
+    printf("Soma = %d\n", 100-"10");
+}
+Esperamos um erro de tipos, já que temos inteiro e caractere na mesma operação.
+#####
+exerc2.c:3:30: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    3 |     printf("Soma = %d\n", 100-"10");
+      |                              ^
+      |                              |
+      |                              char *
+####
+Temos um erro de tipo, já que tentamos operar int com char*.

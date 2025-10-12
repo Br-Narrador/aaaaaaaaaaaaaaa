@@ -1,0 +1,5 @@
+O primeiro exercicio cria um novo struct temporario e então retorna os seus valores.
+O segundo usa o proprio vetor e define os valores na hora.
+O segundo jeito é melhor, por ser mais eficiente, já que da primeira maneira usamos memoria de forma 
+desnecessaria.
+O primeiro jeito é mais lento, pela necessidade de passar por um intermediario, a segunda é mais direta.

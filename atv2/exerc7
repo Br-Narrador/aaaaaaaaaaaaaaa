@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void){
+    int n, n2;
+    scanf("%d %d", &n, &n2);
+    for (int i = n+1;i<n2;i++){
+            printf("%d\n", i);
+    }
+}
+
+/*#para Python
+n = int(input())
+n2 = int(input())
+for i in range(n+1, n2):
+    print(i)
+*/

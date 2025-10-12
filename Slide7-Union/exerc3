@@ -1,0 +1,4 @@
+A uniao discriminada é uma junção de Enum + Union + Struct, a Enum servindo como identificador, a Union como
+o tipo usado no momento e a Struct o meio de unir os dois.
+A Uniao discriminada é util quando queremos nos organizar um pouco melhor no uso de Union, já que isso obriga 
+o programador a especificar o tipo que está sendo usado no momento, o que diminui a chance de erros.
